@@ -1,0 +1,15 @@
+{
+  "name": "modern_portfolio",
+  "version": "1.0.0",
+  "description": "resposive",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Greg Taylor",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  },
+  "devDependencies": {}
+}
