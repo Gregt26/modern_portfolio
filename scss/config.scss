@@ -52,13 +52,15 @@ $background-opacity: 0.9;
         @content;
     }    
 }
-@mixin mediaLg {
-    @media screen and (min-width: 769) and (max-width: 1170px) {
+
+@mixin mediaXL {
+    @media screen and (max-width: 1171px) {
         @content;
     }    
 }
-@mixin mediaXL {
-    @media screen and (max-width: 1171px) {
+
+@mixin mediaLg {
+    @media screen and (min-width: 769) and (max-width: 1170px) {
         @content;
     }    
 }
